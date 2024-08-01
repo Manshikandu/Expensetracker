@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    /* background-color: #a5d5c5; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    background-color: #68c6af;
+
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    background-color: #68c6af;
+    border-radius: 10px;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); */
+    overflow: hidden;
+}
+
+.signup-section, .login-section {
+    flex: 1;
+    padding: rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.signup-section {
+    background-color: #6ec0b4;
+    text-align: center;
+    
+}
+
+.signup-section p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.signup-btn {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    color: #000;
+    background-color: #c9d6df;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signup-btn:hover {
+    background-color: #b0bec5;
+}
+
+.login-section h2 {
+    margin-bottom: 1rem;
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.login-section form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.login-section input {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+.login-section button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #004b23;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-section button:hover {
+    background-color: #003d1c;
+}
+
+.login-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.login-options a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s;
+}
+
+.login-options a:hover {
+    color: #004b23;
+}
